@@ -128,7 +128,7 @@ export const contactPage = (c: Context) => {
               </div>
 
               {/* Book Consultation */}
-              <div class="card p-7 mb-6" style="background:linear-gradient(135deg,#163616,#3a8a3a);border:none;">
+              <div class="card p-7 mb-6" style="background:linear-gradient(135deg,#4caf50,#81c784);border:none;">
                 <div style="font-size:2.5rem;margin-bottom:12px;">👨‍⚕️</div>
                 <h3 style="font-family:'Playfair Display',serif;color:#fff;margin-bottom:10px;">Book a Consultation</h3>
                 <p style="color:rgba(255,255,255,.8);font-size:.88rem;line-height:1.7;margin-bottom:18px;">Talk directly with a certified Ayurvedic doctor. Online and in-person slots available.</p>

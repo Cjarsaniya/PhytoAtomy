@@ -158,7 +158,7 @@ export const aboutPage = (c: Context) => {
                     <p style="color:#5a7a5a;font-size:.88rem;line-height:1.65;">{event.desc}</p>
                   </div>
                 </div>
-                <div style="width:48px;height:48px;background:linear-gradient(135deg,#3a8a3a,#245724);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.3rem;flex-shrink:0;z-index:1;border:3px solid #fefcf7;">{event.icon}</div>
+                <div style="width:48px;height:48px;background:linear-gradient(135deg,#4caf50,#66bb6a);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.3rem;flex-shrink:0;z-index:1;border:3px solid #fefcf7;">{event.icon}</div>
                 <div style="flex:1;"></div>
               </div>
             ))}
@@ -167,7 +167,7 @@ export const aboutPage = (c: Context) => {
       </section>
 
       {/* CTA */}
-      <section style="background:linear-gradient(135deg,#163616,#3a8a3a);padding:70px 0;text-align:center;">
+      <section style="background:linear-gradient(135deg,#4caf50,#81c784);padding:70px 0;text-align:center;">
         <div class="max-w-3xl mx-auto px-4">
           <h2 style="font-family:'Playfair Display',serif;font-size:2.2rem;color:#fff;margin-bottom:14px;">Ready to Begin Your Wellness Journey?</h2>
           <p style="color:rgba(255,255,255,.8);margin-bottom:28px;font-size:1rem;line-height:1.75;">Explore our range of authentic Ayurvedic products and start living in harmony with nature today.</p>
