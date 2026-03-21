@@ -191,7 +191,7 @@ export const homePage = (c: Context) => {
       </section>
 
       {/* ── Ayurveda Philosophy ── */}
-      <section class="py-20" style="background:linear-gradient(135deg,#4caf50 0%,#66bb6a 50%,#81c784 100%);position:relative;overflow:hidden;">
+      <section class="py-20" style="background:linear-gradient(135deg,#163616 0%,#245724 50%,#3a8a3a 100%);position:relative;overflow:hidden;">
         <div style="position:absolute;top:0;right:0;font-size:20rem;opacity:.04;line-height:1;pointer-events:none;">🌿</div>
         <div class="max-w-7xl mx-auto px-4">
           <div class="grid grid-cols-1 lg:grid-cols-2 gap-14 items-center">
@@ -356,7 +356,7 @@ export const homePage = (c: Context) => {
           <p style="color:rgba(255,255,255,.85);margin-bottom:28px;">Subscribe for exclusive Ayurvedic tips, product launches, and special offers.</p>
           <form onsubmit="return false;" style="display:flex;gap:10px;max-width:460px;margin:0 auto;flex-wrap:wrap;justify-content:center;">
             <input type="email" placeholder="Enter your email address" style="flex:1;min-width:250px;padding:14px 20px;border-radius:30px;border:none;font-family:'Poppins',sans-serif;font-size:.95rem;outline:none;" />
-            <button type="submit" style="background:#4caf50;color:#fff;padding:14px 24px;border-radius:30px;border:none;font-weight:600;cursor:pointer;transition:all .3s;white-space:nowrap;" onmouseover="this.style.background='#66bb6a'" onmouseout="this.style.background='#4caf50'">
+            <button type="submit" style="background:#163616;color:#fff;padding:14px 24px;border-radius:30px;border:none;font-weight:600;cursor:pointer;transition:all .3s;white-space:nowrap;" onmouseover="this.style.background='#245724'" onmouseout="this.style.background='#163616'">
               Subscribe 🌿
             </button>
           </form>

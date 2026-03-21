@@ -155,7 +155,7 @@ export const servicesPage = (c: Context) => {
       </section>
 
       {/* Booking CTA */}
-      <section style="background:linear-gradient(135deg,#4caf50,#81c784);padding:70px 0;text-align:center;">
+      <section style="background:linear-gradient(135deg,#163616,#3a8a3a);padding:70px 0;text-align:center;">
         <div class="max-w-3xl mx-auto px-4">
           <div style="font-size:3rem;margin-bottom:14px;">📅</div>
           <h2 style="font-family:'Playfair Display',serif;font-size:2.2rem;color:#fff;margin-bottom:14px;">Book Your Consultation Today</h2>

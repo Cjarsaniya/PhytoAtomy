@@ -40,14 +40,14 @@ export const renderer = jsxRenderer(({ children, title }) => {
           ::-webkit-scrollbar-thumb { background: #3a8a3a; border-radius: 3px; }
 
           /* ── Navbar ── */
-          .navbar { background: rgba(56,142,60,0.97); backdrop-filter: blur(10px); position: sticky; top:0; z-index:1000; border-bottom: 2px solid #ffa500; }
+          .navbar { background: rgba(22,53,22,0.97); backdrop-filter: blur(10px); position: sticky; top:0; z-index:1000; border-bottom: 2px solid #ffa500; }
           .nav-link { color: #d4edda; font-weight:500; transition: color .25s, background .25s; padding:6px 12px; border-radius:6px; }
           .nav-link:hover, .nav-link.active { color:#ffa500; background:rgba(255,165,0,0.1); }
           .nav-cta { background: linear-gradient(135deg,#ffa500,#e08c00); color:#fff!important; border-radius:25px; padding:8px 20px!important; font-weight:600!important; }
           .nav-cta:hover { transform:translateY(-1px); box-shadow:0 6px 20px rgba(255,165,0,.45); background:linear-gradient(135deg,#ffbb33,#ffa500)!important; }
 
           /* ── Hero ── */
-          .hero-section { background: linear-gradient(135deg, #4caf50 0%, #66bb6a 40%, #81c784 70%, #a5d6a7 100%); position:relative; overflow:hidden; }
+          .hero-section { background: linear-gradient(135deg, #163616 0%, #245724 35%, #3a8a3a 65%, #2e6e2e 85%, #d08a25 100%); position:relative; overflow:hidden; }
           .hero-section::before { content:''; position:absolute; inset:0; background:url("data:image/svg+xml,%3Csvg width='80' height='80' viewBox='0 0 80 80' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23ffffff' fill-opacity='0.03'%3E%3Cpath d='M40 0C18 0 0 18 0 40s18 40 40 40 40-18 40-40S62 0 40 0zm0 70C23.4 70 10 56.6 10 40S23.4 10 40 10s30 13.4 30 30-13.4 30-30 30z'/%3E%3C/g%3E%3C/svg%3E"); }
           .hero-badge { background:linear-gradient(135deg,#ffa500,#e08c00); color:#fff; border-radius:30px; padding:6px 18px; font-size:.8rem; font-weight:600; letter-spacing:1px; display:inline-block; }
           .hero-btn-primary { background:linear-gradient(135deg,#ffa500,#e08c00); color:#fff; padding:14px 32px; border-radius:30px; font-weight:600; font-size:1rem; border:none; cursor:pointer; transition:all .3s; display:inline-flex; align-items:center; gap:8px; }
@@ -58,9 +58,9 @@ export const renderer = jsxRenderer(({ children, title }) => {
           @keyframes floatLeaf { 0%,100%{transform:translateY(0) rotate(0deg)} 50%{transform:translateY(-20px) rotate(10deg)} }
 
           /* ── Section Styles ── */
-          .section-tag { color:#4caf50; font-weight:600; font-size:.85rem; letter-spacing:2px; text-transform:uppercase; }
-          .section-title { font-family:'Playfair Display',serif; font-size:clamp(1.8rem,4vw,3rem); color:#2e7d32; line-height:1.2; }
-          .section-divider { width:60px; height:4px; background:linear-gradient(90deg,#4caf50,#ffa500); border-radius:2px; margin:16px 0; }
+          .section-tag { color:#3a8a3a; font-weight:600; font-size:.85rem; letter-spacing:2px; text-transform:uppercase; }
+          .section-title { font-family:'Playfair Display',serif; font-size:clamp(1.8rem,4vw,3rem); color:#163616; line-height:1.2; }
+          .section-divider { width:60px; height:4px; background:linear-gradient(90deg,#3a8a3a,#ffa500); border-radius:2px; margin:16px 0; }
           .section-bg-alt { background:linear-gradient(180deg,#f6fbf4 0%,#fefcf7 100%); }
 
           /* ── Cards ── */
@@ -70,8 +70,8 @@ export const renderer = jsxRenderer(({ children, title }) => {
           .product-img { width:100%; height:220px; object-fit:cover; background:linear-gradient(135deg,#e8f5e5,#cce9c6); display:flex; align-items:center; justify-content:center; }
           .price-tag { color:#3a8a3a; font-weight:700; font-size:1.2rem; }
           .old-price { color:#9ca3af; text-decoration:line-through; font-size:.9rem; }
-          .add-cart-btn { background:linear-gradient(135deg,#4caf50,#66bb6a); color:#fff; border:none; border-radius:8px; padding:10px 20px; font-weight:600; cursor:pointer; transition:all .3s; width:100%; }
-          .add-cart-btn:hover { background:linear-gradient(135deg,#66bb6a,#4caf50); transform:translateY(-1px); box-shadow:0 6px 20px rgba(76,175,80,.4); }
+          .add-cart-btn { background:linear-gradient(135deg,#3a8a3a,#245724); color:#fff; border:none; border-radius:8px; padding:10px 20px; font-weight:600; cursor:pointer; transition:all .3s; width:100%; }
+          .add-cart-btn:hover { background:linear-gradient(135deg,#245724,#163616); transform:translateY(-1px); box-shadow:0 6px 20px rgba(36,87,36,.4); }
 
           /* ── Feature Icons ── */
           .feature-icon { width:70px; height:70px; border-radius:16px; display:flex; align-items:center; justify-content:center; font-size:1.8rem; margin:0 auto 16px; }
@@ -82,18 +82,18 @@ export const renderer = jsxRenderer(({ children, title }) => {
           /* ── Testimonials ── */
           .testimonial-card { background:linear-gradient(135deg,#f6fbf4,#e8f5e5); border:1px solid #cce9c6; border-radius:16px; padding:28px; }
           .star { color:#ffa500; }
-          .testimonial-avatar { width:52px; height:52px; border-radius:50%; background:linear-gradient(135deg,#4caf50,#66bb6a); display:flex; align-items:center; justify-content:center; color:#fff; font-weight:700; font-size:1.2rem; }
+          .testimonial-avatar { width:52px; height:52px; border-radius:50%; background:linear-gradient(135deg,#3a8a3a,#245724); display:flex; align-items:center; justify-content:center; color:#fff; font-weight:700; font-size:1.2rem; }
 
           /* ── Buttons ── */
-          .btn-primary { background:linear-gradient(135deg,#4caf50,#66bb6a); color:#fff; padding:12px 28px; border-radius:30px; font-weight:600; border:none; cursor:pointer; transition:all .3s; display:inline-flex; align-items:center; gap:8px; text-decoration:none; }
-          .btn-primary:hover { transform:translateY(-2px); box-shadow:0 8px 24px rgba(76,175,80,.4); background:linear-gradient(135deg,#66bb6a,#81c784); }
-          .btn-outline { background:transparent; color:#4caf50; padding:12px 28px; border-radius:30px; font-weight:600; border:2px solid #4caf50; cursor:pointer; transition:all .3s; display:inline-flex; align-items:center; gap:8px; text-decoration:none; }
-          .btn-outline:hover { background:#4caf50; color:#fff; transform:translateY(-2px); }
+          .btn-primary { background:linear-gradient(135deg,#3a8a3a,#245724); color:#fff; padding:12px 28px; border-radius:30px; font-weight:600; border:none; cursor:pointer; transition:all .3s; display:inline-flex; align-items:center; gap:8px; text-decoration:none; }
+          .btn-primary:hover { transform:translateY(-2px); box-shadow:0 8px 24px rgba(58,138,58,.4); background:linear-gradient(135deg,#245724,#163616); }
+          .btn-outline { background:transparent; color:#3a8a3a; padding:12px 28px; border-radius:30px; font-weight:600; border:2px solid #3a8a3a; cursor:pointer; transition:all .3s; display:inline-flex; align-items:center; gap:8px; text-decoration:none; }
+          .btn-outline:hover { background:#3a8a3a; color:#fff; transform:translateY(-2px); }
           .btn-saffron { background:linear-gradient(135deg,#ffa500,#e08c00); color:#fff; padding:12px 28px; border-radius:30px; font-weight:600; border:none; cursor:pointer; transition:all .3s; display:inline-flex; align-items:center; gap:8px; text-decoration:none; }
           .btn-saffron:hover { transform:translateY(-2px); box-shadow:0 8px 24px rgba(255,165,0,.45); }
 
           /* ── Footer ── */
-          .footer { background:linear-gradient(180deg,#2e7d32 0%,#1b5e20 100%); color:#d4edda; border-top:3px solid #ffa500; }
+          .footer { background:linear-gradient(180deg,#163616 0%,#0f2510 100%); color:#d4edda; border-top:3px solid #ffa500; }
           .footer-link { color:#9dc99d; transition:color .2s; text-decoration:none; font-size:.9rem; display:block; margin-bottom:8px; }
           .footer-link:hover { color:#ffa500; }
           .footer-social { width:38px; height:38px; border-radius:50%; background:rgba(255,255,255,.08); display:flex; align-items:center; justify-content:center; color:#d4edda; transition:all .3s; text-decoration:none; }
@@ -106,11 +106,11 @@ export const renderer = jsxRenderer(({ children, title }) => {
           @media(max-width:768px) {
             #hamburger { display:flex; }
             .desktop-menu { display:none; }
-            .mobile-menu.open { display:flex; flex-direction:column; position:absolute; top:100%; left:0; right:0; background:rgba(56,142,60,0.98); padding:16px; border-top:1px solid #66bb6a; }
+            .mobile-menu.open { display:flex; flex-direction:column; position:absolute; top:100%; left:0; right:0; background:rgba(22,53,22,0.98); padding:16px; border-top:1px solid #2e6e2e; }
           }
 
           /* ── Page Banner ── */
-          .page-banner { background:linear-gradient(135deg,#4caf50 0%,#66bb6a 50%,#81c784 100%); padding:80px 0 60px; text-align:center; position:relative; overflow:hidden; }
+          .page-banner { background:linear-gradient(135deg,#163616 0%,#245724 50%,#3a8a3a 100%); padding:80px 0 60px; text-align:center; position:relative; overflow:hidden; }
           .page-banner::before { content:''; position:absolute; inset:0; background:url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23ffffff' fill-opacity='0.03'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/svg%3E"); }
 
           /* ── Animations ── */
@@ -125,7 +125,7 @@ export const renderer = jsxRenderer(({ children, title }) => {
           .counter-label { color:#9dc99d; font-size:.9rem; margin-top:4px; }
 
           /* ── Tags / Badges ── */
-          .tag { background:#e8f5e5; color:#2e7d32; padding:4px 12px; border-radius:20px; font-size:.8rem; font-weight:500; }
+          .tag { background:#e8f5e5; color:#245724; padding:4px 12px; border-radius:20px; font-size:.8rem; font-weight:500; }
           .tag-saffron { background:#fff3d1; color:#e08c00; }
 
           /* ── Form ── */
@@ -138,7 +138,7 @@ export const renderer = jsxRenderer(({ children, title }) => {
           .blog-card { border-radius:16px; overflow:hidden; background:#fff; box-shadow:0 2px 20px rgba(0,0,0,.07); transition:all .35s; border:1px solid #e8f5e5; }
           .blog-card:hover { transform:translateY(-5px); box-shadow:0 14px 36px rgba(58,138,58,.15); }
           .blog-img { height:200px; background:linear-gradient(135deg,#e8f5e5,#cce9c6); display:flex; align-items:center; justify-content:center; overflow:hidden; }
-          .blog-category { background:#e8f5e5; color:#2e7d32; padding:4px 12px; border-radius:20px; font-size:.75rem; font-weight:600; }
+          .blog-category { background:#e8f5e5; color:#245724; padding:4px 12px; border-radius:20px; font-size:.75rem; font-weight:600; }
 
           /* ── Sticky CTA ── */
           .sticky-whatsapp { position:fixed; bottom:28px; right:28px; z-index:999; background:#25d366; color:#fff; width:58px; height:58px; border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:1.6rem; box-shadow:0 6px 24px rgba(37,211,102,.5); transition:all .3s; text-decoration:none; }
@@ -244,8 +244,8 @@ export const renderer = jsxRenderer(({ children, title }) => {
                   <i class="fas fa-map-marker-alt mt-1" style="color:#ffa500;min-width:16px;"></i>
                   <span>123 Herbal Lane, Wellness Park,<br/>Nature City – 400001</span>
                 </div>
-                <a href="tel:+918001234567" class="footer-link" style="display:flex;gap:10px;align-items:center;">
-                  <i class="fas fa-phone" style="color:#ffa500;"></i> +91 800 123 4567
+                <a href="tel:+919773038217" class="footer-link" style="display:flex;gap:10px;align-items:center;">
+                  <i class="fas fa-phone" style="color:#ffa500;"></i> +91 977 303 8217
                 </a>
                 <a href="mailto:info@phytoatomy.com" class="footer-link" style="display:flex;gap:10px;align-items:center;">
                   <i class="fas fa-envelope" style="color:#ffa500;"></i> info@phytoatomy.com
@@ -273,7 +273,7 @@ export const renderer = jsxRenderer(({ children, title }) => {
         </footer>
 
         {/* Sticky WhatsApp */}
-        <a href="https://wa.me/918001234567" target="_blank" class="sticky-whatsapp" title="Chat on WhatsApp">
+        <a href="https://wa.me/919773038217" target="_blank" class="sticky-whatsapp" title="Chat on WhatsApp">
           <i class="fab fa-whatsapp"></i>
         </a>
 

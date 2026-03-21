@@ -23,9 +23,9 @@ export const contactPage = (c: Context) => {
           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
               { icon:'📍', title:'Visit Us', lines:['123 Herbal Lane, Wellness Park', 'Nature City – 400001', 'Maharashtra, India'], color:'#3a8a3a', action:'Get Directions', href:'#' },
-              { icon:'📞', title:'Call Us', lines:['+91 800 123 4567', '+91 800 765 4321', 'Mon–Sat: 9AM–7PM IST'], color:'#ffa500', action:'Call Now', href:'tel:+918001234567' },
+              { icon:'📞', title:'Call Us', lines:['+91 977 303 8217', '+91 977 303 8217', 'Mon–Sat: 9AM–7PM IST'], color:'#ffa500', action:'Call Now', href:'tel:+919773038217' },
               { icon:'📧', title:'Email Us', lines:['info@phytoatomy.com', 'support@phytoatomy.com', 'Typically reply within 4hrs'], color:'#2563eb', action:'Send Email', href:'mailto:info@phytoatomy.com' },
-              { icon:'💬', title:'WhatsApp', lines:['Chat with our team', 'Get instant responses', 'Available 10AM–6PM'], color:'#25d366', action:'Chat Now', href:'https://wa.me/918001234567' },
+              { icon:'💬', title:'WhatsApp', lines:['Chat with our team', 'Get instant responses', 'Available 10AM–6PM'], color:'#25d366', action:'Chat Now', href:'https://wa.me/919773038217' },
             ].map(info => (
               <div class="card p-7 text-center" style={`border-top:4px solid ${info.color};`}>
                 <div style={`width:60px;height:60px;background:${info.color}18;border-radius:14px;display:flex;align-items:center;justify-content:center;font-size:1.8rem;margin:0 auto 14px;`}>{info.icon}</div>
@@ -128,7 +128,7 @@ export const contactPage = (c: Context) => {
               </div>
 
               {/* Book Consultation */}
-              <div class="card p-7 mb-6" style="background:linear-gradient(135deg,#4caf50,#81c784);border:none;">
+              <div class="card p-7 mb-6" style="background:linear-gradient(135deg,#163616,#3a8a3a);border:none;">
                 <div style="font-size:2.5rem;margin-bottom:12px;">👨‍⚕️</div>
                 <h3 style="font-family:'Playfair Display',serif;color:#fff;margin-bottom:10px;">Book a Consultation</h3>
                 <p style="color:rgba(255,255,255,.8);font-size:.88rem;line-height:1.7;margin-bottom:18px;">Talk directly with a certified Ayurvedic doctor. Online and in-person slots available.</p>

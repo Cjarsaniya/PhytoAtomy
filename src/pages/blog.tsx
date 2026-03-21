@@ -68,7 +68,7 @@ export const blogPage = (c: Context) => {
           <div class="section-tag mb-3">Featured Article</div>
           <div class="card overflow-hidden" style="border:none;box-shadow:0 4px 30px rgba(58,138,58,.12);">
             <div class="grid grid-cols-1 lg:grid-cols-2">
-              <div style="background:linear-gradient(135deg,#4caf50 0%,#81c784 100%);padding:60px 40px;display:flex;align-items:center;justify-content:center;min-height:300px;">
+              <div style="background:linear-gradient(135deg,#163616 0%,#3a8a3a 100%);padding:60px 40px;display:flex;align-items:center;justify-content:center;min-height:300px;">
                 <div style="text-align:center;">
                   <div style="font-size:6rem;margin-bottom:16px;">{posts[0].emoji}</div>
                   <span style="background:rgba(255,165,0,.25);color:#ffd166;padding:5px 15px;border-radius:20px;font-size:.8rem;font-weight:600;">{posts[0].cat}</span>
@@ -82,7 +82,7 @@ export const blogPage = (c: Context) => {
                 <h2 style="font-family:'Playfair Display',serif;font-size:1.7rem;color:#163616;margin-bottom:14px;line-height:1.35;">{posts[0].title}</h2>
                 <p style="color:#5a7a5a;line-height:1.8;margin-bottom:20px;font-size:.95rem;">{posts[0].excerpt}</p>
                 <div class="flex items-center gap-4 mb-6">
-                  <div style="width:40px;height:40px;background:linear-gradient(135deg,#4caf50,#66bb6a);border-radius:50%;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;">{posts[0].author.charAt(3)}</div>
+                  <div style="width:40px;height:40px;background:linear-gradient(135deg,#3a8a3a,#245724);border-radius:50%;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;">{posts[0].author.charAt(3)}</div>
                   <div>
                     <div style="font-weight:600;color:#163616;font-size:.88rem;">{posts[0].author}</div>
                     <div style="color:#9ca3af;font-size:.78rem;">{posts[0].date}</div>
@@ -116,7 +116,7 @@ export const blogPage = (c: Context) => {
           <div id="blogGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7">
             {posts.map(post => (
               <div class="blog-card" data-category={post.cat}>
-                <div class="blog-img" style="background:linear-gradient(135deg,#4caf50,#81c784);">
+                <div class="blog-img" style="background:linear-gradient(135deg,#163616,#3a8a3a);">
                   <div style="text-align:center;padding:20px;">
                     <div style="font-size:4rem;">{post.emoji}</div>
                   </div>
@@ -133,7 +133,7 @@ export const blogPage = (c: Context) => {
                   </div>
                   <div style="border-top:1px solid #e8f5e5;padding-top:14px;display:flex;justify-content:space-between;align-items:center;">
                     <div class="flex items-center gap-2">
-                      <div style="width:30px;height:30px;background:linear-gradient(135deg,#4caf50,#66bb6a);border-radius:50%;display:flex;align-items:center;justify-content:center;color:#fff;font-size:.75rem;font-weight:700;">{post.author.charAt(3)}</div>
+                      <div style="width:30px;height:30px;background:linear-gradient(135deg,#3a8a3a,#245724);border-radius:50%;display:flex;align-items:center;justify-content:center;color:#fff;font-size:.75rem;font-weight:700;">{post.author.charAt(3)}</div>
                       <div>
                         <div style="font-size:.75rem;font-weight:600;color:#163616;">{post.author}</div>
                         <div style="font-size:.7rem;color:#9ca3af;">{post.date}</div>
